@@ -33,9 +33,11 @@ h1 em {
 	
 }
 h2 {
-	font-size: 2.8rem;
-	/* STEP 7b: Set subheading font to 'Century Gothic', with a fallback to Futura for Mac, then lastly to sans-serif */
 	
+	/* STEP 7b: Set subheading font to 'Century Gothic', with a fallback to Futura for Mac, then lastly to sans-serif */
+	font-size: 2.8rem;
+	font-family: "Century Gothic", Futura, sans-serif ;
+	text-transform: uppercase;
 }
 h3 {
 	font-size: 2.4rem;
@@ -56,6 +58,8 @@ p {
 }
 /* STEP 7d: Set font for p in header to the same as the h2 and the h3 elements, using a descendant (contextual) selector */
 header p {
+	font-family: "Century Gothic", Futura, sans-serif ;
+	font-weight: normal;
 	
 }
 /* STEP 9a: Reduce space between headings in page-level header H1 */
