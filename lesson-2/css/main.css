@@ -32,7 +32,7 @@ h1 {
 }
 h1 em {
 	/* STEP 7e: The numero character/symbol is not heavy enough for the surrounding text, so we will set it with a heavy font, and eliminate the italics */
-	
+	font-size: 2.2rem;
 }
 h2 {
 	
