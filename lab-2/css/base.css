@@ -3,7 +3,7 @@
 html {
 	box-sizing: border-box;
 }
-*, *:before, *:after {
+*, *::before, *::after {
 	box-sizing: inherit;
 }
 body {
@@ -27,6 +27,10 @@ main section {
 }
 main section h2 {
 	margin: 0;
+
+.rgba {
+color: purple;
+}
 }
 main section h3 {
 	margin: 0;
@@ -42,3 +46,4 @@ main section div {
 footer {
 	padding: 1em;
 }
+

@@ -32,7 +32,7 @@ filter: invert();
 }
 main section:nth-child(8) img:hover {
     /* STEP 8: opacity() */
-filter: opacity(80%);
+filter: opacity(0.5);
 }
 main section:nth-child(9) img:hover {
     /* STEP 9: saturate() */
