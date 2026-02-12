@@ -1,6 +1,4 @@
 /* 
-
-6. Use either CSS Flexbox or Grid (or a combination of both) to build a simple but effective layout for the page.
 7. Employ the typographic techniques learned in this class to style the text using the two typefaces that you have selected.
 8. Add some suitable colours and other design elements to the page, but consider legibility—make sure that the page is easy to read and that there are no contrast issues.
 9. Validate your CSS to be sure there are no errors at https://jigsaw.w3.org/css-validator/.
@@ -11,16 +9,16 @@
 
 /* 4. Apply a CSS reset or normalization technique that also addresses box-sizing.*/
 html{
-    Box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 *, *::before, *::after {
     box-sizing: inherit;
 }
 
-body, h1, h2, h3, p, blockquote {
+body, main, h1, h2, h3, p, blockquote {
     margin: 0;
-    padding:font-family:  0;
+    padding: 0;
 }
 
 
@@ -37,8 +35,25 @@ p {
 }
 
 /*6. Use either CSS Flexbox or Grid (or a combination of both) to build a simple but effective layout for the page.*/
+main {
+    
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+article {
+    flex: 1;
+    flex-basis: 60%;
 
+}
 
+aside {
+    flex: 2;
+    flex-basis: 40%;
+}
 
 
 
