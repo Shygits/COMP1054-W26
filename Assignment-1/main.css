@@ -58,6 +58,10 @@ p {
     font-weight: 50px;
 }
 
+p:hover {
+    background-color: turquoise;
+}
+
 /*6. Use either CSS Flexbox or Grid (or a combination of both) to build a simple but effective layout for the page.*/
 main {
     
@@ -78,9 +82,17 @@ blockquote {
     margin-bottom: 2rem;
 }
 
+article:hover {
+    background-color: hsl(236 76% 15% / 0.650); 
+}
+
 aside {
     flex: 1;
     flex-basis: 40%;
+}
+
+aside:hover {
+    background-color: hsl(16 100% 50% / 0.540);
 }
 
 footer {
@@ -92,8 +104,7 @@ a {
 }
 
 a:hover {
-    color: hsl(165 52% 66%);
-    transform: scale(1.4);
+    color: hsl(165 52% 66% / 0.390);
     background-color: rgb(39, 38, 38);
 }
 
