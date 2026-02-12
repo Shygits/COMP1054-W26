@@ -29,7 +29,7 @@ body, main, h1, h2, h3, p, blockquote {
 /*7. Employ the typographic techniques learned in this class to style the text using the two typefaces that you have selected.*/
 
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Saira condensed', sans-serif;
     color: hsl(5 72% 46%); 
     text-shadow: 1.5px 1px 1px black;
@@ -43,10 +43,19 @@ figure img {
     margin-bottom: 1.5rem;
 }
 
+img {
+    width: 100%;
+    max-width:180px;
+    display: block;
+    margin-top: 1.5rem;
+    margin-left: 5rem;
+}
+
 p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(19 99 85);
-    text-shadow: 1px 1px 1px #0b3d34;
+    color: beige;
+    text-shadow: 2px 2px 2px #0b3d34be;
+    font-weight: 50px;
 }
 
 /*6. Use either CSS Flexbox or Grid (or a combination of both) to build a simple but effective layout for the page.*/
@@ -62,7 +71,6 @@ main {
 article {
     flex: 2;
     flex-basis: 60%;
-    border: dotted violet;
 }
 
 blockquote {
@@ -74,7 +82,6 @@ blockquote {
 aside {
     flex: 1;
     flex-basis: 40%;
-    border: dotted purple;
 }
 
 footer {
