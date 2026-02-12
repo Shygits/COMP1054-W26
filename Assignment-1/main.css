@@ -35,6 +35,14 @@ h1, h2, h3 {
     text-shadow: 1.5px 1px 1px black;
 }
 
+figure img {
+    width: 100%;
+    max-width: 180px;
+    display: block;
+    margin-left: 8rem;
+    margin-bottom: 1.5rem;
+}
+
 p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(19 99 85);
