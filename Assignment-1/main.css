@@ -27,11 +27,13 @@ body, h1, h2, h3, p, blockquote {
 /*5. Select two typefaces that would be suitable for the lyrics - one for the page headings, and another for the page body. Be sure to consider readability—display fonts are designed for headings, while other fonts were made for large blocks of text (called body copy). You may use a font-embedding service like Google Fonts if you wish.*/
 
 h1, h2, h3 {
-    font-family: 'saira condensed';
+    font-family: 'Saira condensed', sans-serif;
+    color: midnightblue; 
 }
 
 p {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: silver;
 }
 
 /*6. Use either CSS Flexbox or Grid (or a combination of both) to build a simple but effective layout for the page.*/
