@@ -21,6 +21,7 @@ html{
 body, main, h1, h2, h3, p, blockquote {
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 
@@ -30,12 +31,14 @@ body, main, h1, h2, h3, p, blockquote {
 
 h1, h2, h3 {
     font-family: 'Saira condensed', sans-serif;
-    color: #020627; 
+    color: hsl(5 72% 46%); 
+    text-shadow: 1.5px 1px 1px black;
 }
 
 p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: silver;
+    color: rgb(19 99 85);
+    text-shadow: 1px 1px 1px #0b3d34;
 }
 
 /*6. Use either CSS Flexbox or Grid (or a combination of both) to build a simple but effective layout for the page.*/
@@ -54,15 +57,16 @@ article {
     border: dotted violet;
 }
 
-article section blockquote {
+blockquote {
     margin-top: 2rem;
     margin-bottom: 2rem;
-    border: dashed skyblue;
+    border: dashed red;
 }
 
 aside {
     flex: 1;
     flex-basis: 40%;
+    border: dotted purple;
 }
 
 footer {
