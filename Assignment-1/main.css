@@ -8,3 +8,12 @@
 11. Include some fine-print at the bottom of the page with links to any resources referenced in the creation of your assignment.
 12. No 3rd-party CSS themes or frameworks are permitted. All CSS and HTML must be your own work.*/
 
+html{
+    Box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, p, blockquote, 
