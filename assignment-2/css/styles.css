@@ -4,6 +4,31 @@ html {
     line-height: 3.5;
 }
 
+body {
+    background: hsl(0 0% 98%);
+    padding: 2rem;
+}
+
+
+/*===============================
+HEADER
+===============================*/
+
+header h1 {
+    font-size: 2rem;
+    color: red;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+}
+
+
+
+
+/*===============================
+MAIN LAYOUT
+===============================*/
+
 main {
     display: grid;
     grid-template-columns: 1fr 2fr;
