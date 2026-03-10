@@ -40,10 +40,15 @@ main aside:first-of-type {
     grid-column: 1;
     grid-row:1;
 }
-main aside:nth-of-type {
+main aside:nth-of-type(2) {
     grid-column: 1;
     grid-row: 2;
+    background: lavender;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,12);
 }
+
 
 
 /*======COLOURS=====*/
