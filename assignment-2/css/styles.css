@@ -1,52 +1,55 @@
+/*======GENERAL PAGE STYLE=====*/
 html {
-    font-family: "Noto Serif", Georgia, serif;
-    color: darkslategray;
-    line-height: 3.5;
+     font-family: "Noto Serif", Georgia, serif;
+     color: darkslategray;
+     line-height: 3.5;
 }
 body {
-    background: hsl(0 0% 98%);
-    padding: 2rem;
+     background: hsl(0 0% 98%);
+     padding: 2rem;
 }
 
 
 /*======HEADER=====*/
 header h1 {
-    font-size: 2rem;
-    color: red;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 1rem;
+     font-size: 2rem;
+     color: red;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     margin-bottom: 1rem;
 }
 
 /*======DATE & PRINT INFO=====*/
 header p {
-    font-size: 0.8rem;
+     font-size: 0.8rem;
 }
 
 
 /*======MAIN LAYOUT=====*/
 main {
-    display: grid;
-    grid-template-columns: 1.5fr 2fr;
-    gap: 3rem;
-    margin-top: 2rem;
+     display: grid;
+     grid-template-columns: 1.5fr 2fr;
+     gap: 3rem;
+     margin-top: 2rem;
 }
 
-/*======MAIN CONTENT & ASIDE POSITIONING=====*/
+/*======MAIN SECTION & ASIDE=====*/
 main section {
-    grid-column: 2;
+     grid-column: 2;
 }
 main aside:first-of-type {
-    grid-column: 1;
-    grid-row:1;
+     grid-column: 1;
+     grid-row:1;
 }
 main aside:nth-of-type(2) {
-    grid-column: 1;
-    grid-row: 2;
-    background: lavender;
-    padding: 1.5rem;
-    border-radius: 10px;
-    box-shadow: 0 5px 10px rgba(0,0,0,12);
+     line-height: 1.5;
+     grid-column: 1;
+     grid-row: 2;
+     background: lavender;
+     padding: 1.5rem;
+     border-radius: 10px;
+     display: inline-block;
+     box-shadow: 0 5px 10px rgba(0,0,0,12);
 }
 
 
@@ -71,4 +74,10 @@ main section:nth-of-type(2) h2 {
 }
 main section:nth-of-type(3) h2 {
     text-transform: lowercase;
+}
+
+/*======CONTENT & SPACING======*/
+main section p {
+     margin-bottom: 1.5rem;
+     line-height: 1.5rem;
 }
