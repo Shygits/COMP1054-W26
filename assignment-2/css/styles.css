@@ -39,7 +39,7 @@ main {
 /*======MAIN SECTION & ASIDE=====*/
 main section {
      grid-column: 2;
-     line-height: 2em;
+     line-height: 1.7em;
      font-size: 12px;
 
 }
