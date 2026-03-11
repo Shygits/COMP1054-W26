@@ -90,9 +90,9 @@ main section p {
      line-height: 1.5rem;
 }
 
-/*=======BLOCKS OF COLOUR======*/
+/*=======BLOCKS OF COLOUR======more information was used from: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/content*/
 main section:nth-of-type(1) h2::before {
-    border:;
+    content: "new";
     display: block;
     background-color: #149916;
     width: 75%;
