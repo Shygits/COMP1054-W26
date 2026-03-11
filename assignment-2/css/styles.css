@@ -2,13 +2,13 @@
 html {
      font-family: "Noto Serif", Georgia, serif;
      color: black;
-     line-height: 3.5;
-     transform: skew(1deg);
+     transform: skew(2deg);
 
 }
 body {
      background: hsl(0 0% 98%);
      padding: 2rem;
+     line-height: 6;
 }
 
 
@@ -19,7 +19,7 @@ header h1 {
      text-transform: lowercase;
      font-weight: 300;
      letter-spacing: 2px;
-     margin-bottom: 1rem;
+     margin-bottom: 0.3em;
 }
 
 /*======DATE & PRINT INFO=====*/
@@ -32,26 +32,26 @@ header p {
 main {
      display: grid;
      grid-template-columns: 1.5fr 2fr;
-     gap: 3rem;
-     margin-top: 2rem;
+     gap: 2.3rem;
+     margin-top: 0.5em;
 }
 
 /*======MAIN SECTION & ASIDE=====*/
 main section {
      grid-column: 2;
-     line-height: 1.7em;
+     line-height: 2em;
      font-size: 12px;
 
 }
 main aside:first-of-type {
      grid-column: 1;
      grid-row:1;
-     line-height: 0.3rem;
+     line-height: 0.1em;
      font-size: 12px;
 }
 main aside:nth-of-type(2) {
-     line-height: 1;
-     grid-column: 1;
+     line-height: 1em;
+     grid-column: 1em;
      grid-row: 2;
      background: rgb(242, 242, 245);
      padding: 1.5rem;
@@ -88,7 +88,16 @@ main section:nth-of-type(3) h2 {
 /*======CONTENT & SPACING======*/
 main section p {
      margin-bottom: 1rem;
-     line-height: 1rem;
+     line-height: 0.8rem;
+}
+main section ul li {
+    margin: 0;
+    line-height: 0.3em;
+    padding-left: 1rem;
+}
+main section li {
+    line-height: 0.3em;
+    margin-bottom: left;
 }
 
 /*=======BLOCKS OF COLOUR====== more information was used from: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/content*/
