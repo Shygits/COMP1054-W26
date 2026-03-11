@@ -90,14 +90,10 @@ main section p {
      margin-bottom: 1rem;
      line-height: 0.8rem;
 }
-main section ul li {
-    margin: 0;
-    line-height: 0.3em;
-    padding-left: 1rem;
-}
+main section ul, 
 main section li {
-    line-height: 0.3em;
-    margin-bottom: left;
+   line-height: 1.1;
+   margin-bottom: 0.2rem;
 }
 
 /*=======BLOCKS OF COLOUR====== more information was used from: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/content*/
