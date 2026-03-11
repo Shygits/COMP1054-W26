@@ -1,7 +1,7 @@
 /*======GENERAL PAGE STYLE=====*/
 html {
      font-family: "Noto Serif", Georgia, serif;
-     color: darkslategray;
+     color: black;
      line-height: 3.5;
 }
 body {
@@ -37,11 +37,15 @@ main {
 /*======MAIN SECTION & ASIDE=====*/
 main section {
      grid-column: 2;
-     line-height:1.5rem;
+     line-height: 0.7rem;
+     font-size: 12px;
+
 }
 main aside:first-of-type {
      grid-column: 1;
      grid-row:1;
+     line-height: 0.3rem;
+     font-size: 12px;
 }
 main aside:nth-of-type(2) {
      line-height: 1.5;
