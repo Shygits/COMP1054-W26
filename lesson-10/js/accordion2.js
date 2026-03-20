@@ -27,5 +27,6 @@ details.forEach((detail) => {
 		
 });
 
+// STEP 9: Check in the browser to make sure there are no errors - use the console, then proceed to the CSS for the final step 
 
 // This experiment based on https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details

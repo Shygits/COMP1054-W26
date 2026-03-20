@@ -11,4 +11,4 @@
 		// STEp 8c: Check to make sure the DETAILS element is not the parent of the SUMMARY that was clicked 
 
 
-// STEP 9: Check in the browser to make sure there are no errors - use the console, then proceed to the CSS for the final step
+// STEP 9: Check in the browser to make sure there are no errors - use the console, then proceed to the CSS for the final step 
