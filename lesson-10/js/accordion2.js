@@ -1,5 +1,5 @@
-// STEP 6: Nab all the SUMMARY elements
-
+// STEP 6: Nab all the DEATAIL elements
+const details = document.querySelectorAll("details");
 
 // STEP 7: Loop through the element array, and add an event listener for the toggle event
 
