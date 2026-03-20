@@ -22,6 +22,25 @@ details {
 	background-color: lavender;
 }
 
+/*Animation*/
+::details-content {
+	transition:
+	height 0.25s ease,
+	content-visibility 0.25s ease allow-discrete;
+	height: 0;
+	overflow: clip;
+}
+
+/*Check if browser supports new property called interpolate-size*/
+@supports (interpolate-size: allow-keywords){
+	:root{
+		interpolate-size: allow- keywords
+	}
+	[open]::details-content {
+		height: auto;
+	}
+}
+
 /* STEP 3b: Adjacent sibling DETAILS elements don't need a top border */
 details + details {
 	border-top: none;
