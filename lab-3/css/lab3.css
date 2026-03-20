@@ -19,3 +19,18 @@ details {
 	padding: 0 1rem;
 	background-color: rgb(210, 154, 245);
 }
+
+/*Animation*/
+::details-content {
+	transition:
+	height 0.25s ease,
+	content-visibility 0.6s ease allow-discrete;
+	height: 0;
+	overflow: clip;
+}
+
+/*Removes top border*/
+details + details {
+	border-top: none;
+}
+
