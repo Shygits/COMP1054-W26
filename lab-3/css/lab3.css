@@ -9,10 +9,3 @@ html {
 	box-sizing: inherit;
 }
 
-html {
-	font-family: "Open Sans", sans-serif;
-}
-#container {
-	width: 80%;
-	margin: 0 auto;
-}
