@@ -39,3 +39,13 @@ html {
 .tabs ul li a:hover {
 	background: whitesmoke;
 }
+
+/*Display Panels*/
+#tabpanel1 #tabpanel2 #tabpanel3 {
+	display: ;
+	padding: 1.5rem;
+	border: 3px solid hotpink;
+
+
+
+}
