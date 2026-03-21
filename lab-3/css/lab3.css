@@ -51,6 +51,6 @@ html {
 }
 
 /*show selected panel target info from here: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:target*/
-#tabpanel1:target, tabpanel2:target, tabpanel3:target {
+#tabpanel1:target, #tabpanel2:target, #tabpanel3:target {
 	display: block;
 }
