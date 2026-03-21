@@ -16,3 +16,12 @@ html {
 	width: 80%;
 	margin: 0 auto;
 }
+
+/*Tab List*/
+.tabs ul {
+	display: flex;
+	list-style: none;
+	padding: 0;
+	margin: 0 0 1rem 1rem;
+	border-bottom: 3px solid grey;
+}
