@@ -23,13 +23,13 @@ html {
 	list-style: none;
 	padding: 0;
 	margin: 0 0 1rem 1rem;
-	border-bottom: 3px solid grey;
+	border-bottom: 3px solid gray;
 }
 
 /*Buttons*/
 .tabs ul li a {
 	display: block;
-	padding: 0.75rem 1.25rem;
+	padding: 0.75rem 1rem;
 	background: lavender;
 	color: indigo;
 	border-radius: 0.5rem 0.5rem 0 0;
@@ -50,7 +50,8 @@ html {
 	margin-top: 1px;
 }
 
-/*show selected panel target info from here: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:target*/
+/*show selected panel
+Target info from here: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:target*/
 #tabpanel1:target, #tabpanel2:target, #tabpanel3:target {
 	display: block;
 }
