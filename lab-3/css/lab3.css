@@ -8,15 +8,11 @@ html {
 *, *:before, *:after {
 	box-sizing: inherit;
 }
-/*
+
+html {
+	font-family: "Open Sans", sans-serif;
+}
 #container {
 	width: 80%;
 	margin: 0 auto;
 }
-
-details {
-	border: 5px solid rgb(187, 69, 130);
-	padding: 0 1rem;
-	background-color: rgb(210, 154, 245);
-}
-*/
