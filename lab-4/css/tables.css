@@ -31,8 +31,7 @@ tbody tr:nth-child(even) {
 }
 /*font weight on td*/
 tbody tr td {
-    background-color: orange;
-    font-weight: lighter;
+    color: rgb(73, 64, 64);
 }
 tfoot td {
     font-size: 60%;
