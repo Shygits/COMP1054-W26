@@ -5,7 +5,7 @@
 		<title>Game Consoles - Worldwide Sales</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!-- We're not normalizing this HTML on purpose so that we can see some of the default table rendering - normalize addresses some of the table display issues -->
-		<link href="css/tables.css" rel="stylesheet" />
+		<!-- <link href="css/tables.css" rel="stylesheet" /> -->
 		<!-- Thanks to Tristen Brown for the excellent (dependency-free) table sorting script -->
 		<script src="js/tablesort/tablesort.min.js"></script>
 		<link href="js/tablesort/css/tablesort.css" rel="stylesheet">
@@ -42,30 +42,32 @@
 				<th scope="col">Xbox 360</th>
 			</tr>
 		</thead>
-		<tr>
-			<th scope="row">Worldwide</th>
-			<td>56,000,000</td>
-			<td>89,360,000</td>
-			<td>57,600,000</td>
-		</tr>
-		<tr>
-			<th scope="row">Japan Sales Figures</th>
-			<td>6,341,950</td>
-			<td>11,534,590</td>
-			<td>1,448,665</td>
-		</tr>
-		<tr>
-			<th scope="row">Europe Sales Figures</th>
-			<td>19,700,000</td>
-			<td>24,900,000</td>
-			<td>13,700,000</td>
-		</tr>
-		<tr>
-			<th scope="row">United States Sales Figures</th>
-			<td>12,000,000</td>
-			<td>30,000,000</td>
-			<td>18,600,000</td>
-		</tr>
+		<tbody>
+			<tr>
+				<th scope="row">Worldwide</th>
+				<td>56,000,000</td>
+				<td>89,360,000</td>
+				<td>57,600,000</td>
+				</tr>
+			<tr>
+				<th scope="row">Japan Sales Figures</th>
+				<td>6,341,950</td>
+				<td>11,534,590</td>
+				<td>1,448,665</td>
+			</tr>
+			<tr>
+				<th scope="row">Europe Sales Figures</th>
+				<td>19,700,000</td>
+				<td>24,900,000</td>
+				<td>13,700,000</td>
+			</tr>
+			<tr>
+				<th scope="row">United States Sales Figures</th>
+				<td>12,000,000</td>
+				<td>30,000,000</td>
+				<td>18,600,000</td>
+			</tr>
+		</tbody>
 
 <!-- STEP 1c: For each piece of table data, build a TD -->
 
@@ -74,11 +76,12 @@
 <!-- STEP 3b: Associate TH with data rows and/or columns -->
 
 <!-- STEP 5b: Move the table footer row(s) up to just below the THEAD and surround with a TFOOT -->
+			<tfoot>
 				<tr>
 					<td colspan="4">Adapted from http://en.wikipedia.org/wiki/Console_wars#Worldwide_sales_figures_4</td>
 				</tr>
 <!-- STEP 5c: Encapsulate the remainder of the table data rows with the TBODY tags -->
-
+			</tfoot>	
 <!-- STEP 5d: Look at the rendering in the browser, then head to css/tables.css for the next step -->
 		</table>
 	</main>
