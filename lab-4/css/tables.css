@@ -7,40 +7,35 @@ html {
 table {
     border-collapse: collapse;
 /* Adjust placement of table caption */
-    caption-side: bottom;
+    caption-side: top;
 /* Try different values for table-layout (https://developer.mozilla.org/en-US/docs/Web/CSS/table-layout) in conjunction with the width property. */
     width: 100%;
     table-layout: auto;
 }
 /* Zebra striping for columns */
-colgroup + colgroup col:nth-child(1) {
-    background-color: rgba(251, 206, 93, 0.5);
+colgroup + colgroup col:nth-child() {
+    background-color: rgba(246, 6, 122, 0.5);
 }
-colgroup + colgroup col:nth-child(2) {
-    background-color: rgba(148, 199, 250, 0.5);
-}
-colgroup + colgroup col:nth-child(3) {
-    background-color: rgba(245, 170, 248, 0.5);
-}
+
 /* Adjust padding for usability with TH and TD */
 td, th {
-    border: 1px solid rgb(241, 10, 10);
+    border: 1px solid rgb(41, 7, 103);
     padding: 0.5em;
 }
 th {
-    background: rgb(183, 170, 236);
+    background: rgba(183, 170, 236, 0.6);
 }
 /*Align table headings in the table body */
 tbody th {
     text-align: left;
 }
-thead tr:first-child th:first-child {
-    /* Hide top left cell - it's empty */
 
-}
 /* Zebra striping for rows */
 tbody tr:nth-child(odd) {
-    background-color: rgb(216, 236, 145);
+    background-color: rgba(159, 241, 71, 0.5);
+}
+tbody tr:nth-child(even) {
+    background-color:rgba(234, 142, 194, 0.25);
 }
 tfoot td {
     font-size: 60%;
