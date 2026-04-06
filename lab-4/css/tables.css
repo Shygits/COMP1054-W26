@@ -12,33 +12,31 @@ table {
     width: 100%;
     table-layout: auto;
 }
-/* Zebra striping for columns */
-colgroup + colgroup col:nth-child() {
-    background-color: rgba(246, 6, 122, 0.5);
-}
 
 /* Adjust padding for usability with TH and TD */
 td, th {
     border: 1px solid rgb(41, 7, 103);
     padding: 0.5em;
 }
-th {
-    background: rgba(183, 170, 236, 0.6);
-}
 /*Align table headings in the table body */
 tbody th {
     text-align: left;
 }
-
 /* Zebra striping for rows */
 tbody tr:nth-child(odd) {
-    background-color: rgba(159, 241, 71, 0.5);
+    background-color: rgba(140, 141, 140, 0.1);
 }
 tbody tr:nth-child(even) {
-    background-color:rgba(234, 142, 194, 0.25);
+    background-color: rgb(232, 225, 225);
+}
+/*font weight on td*/
+tbody tr td {
+    background-color: orange;
+    font-weight: lighter;
 }
 tfoot td {
     font-size: 60%;
+    background-color: rgb(239, 239, 235);
 }
 caption {
     font-size: 150%;
