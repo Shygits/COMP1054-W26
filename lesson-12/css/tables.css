@@ -13,17 +13,22 @@ table {
     table-layout: auto;
 }
 /* STEP 10b: Zebra striping for columns */
-col:nth-child(2) {
-
+colgroup + colgroup col:nth-child(1) {
+    background-color: rgba(251, 206, 93, 0.5);
 }
-
+colgroup + colgroup col:nth-child(2) {
+    background-color: rgba(148, 199, 250, 0.5);
+}
+colgroup + colgroup col:nth-child(3) {
+    background-color: rgba(245, 170, 248, 0.5);
+}
 /* STEP 8: Adjust padding for usability with TH and TD */
 td, th {
-    border: 1px solid rgb(146, 3, 127);
+    border: 1px solid rgb(241, 10, 10);
     padding: 0.5em;
 }
 th {
-    background: rgb(245, 174, 248);
+    background: rgb(183, 170, 236);
 }
 /* STEP 6: Align table headings in the table body */
 tbody th {
@@ -35,7 +40,7 @@ thead tr:first-child th:first-child {
 }
 /* STEP 10a: Zebra striping for rows */
 tbody tr:nth-child(odd) {
-    background-color: rgb(243, 214, 244);
+    background-color: rgb(216, 236, 145);
 }
 tfoot td {
     font-size: 60%;
