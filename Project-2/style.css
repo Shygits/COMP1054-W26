@@ -48,9 +48,9 @@ nav ul {
 
 nav a {
   color: white;
-  text-decoration: none;
+  text-decoration: none; /*https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration */
   padding: 0.5rem 1 rem;
   font-weight: bold;
   border-radius: 25px;
-  transition:all 0.3 ease;
+  transition: all 0.3 ease; /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transition */
 }
