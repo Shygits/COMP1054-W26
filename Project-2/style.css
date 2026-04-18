@@ -100,7 +100,29 @@ aside, footer {
     padding: 1rem;
 }
 
-footer a{
+footer a {
   color: white;
   font-weight: bold;
+}
+
+/*MEDIA LAYOUTS
+  DESKTOP VIEW*/
+@media (min-width: 700px) {
+  main {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  nav ul {
+    justify-content: space-around; 
+  }
+  header h1 {
+    font-size: 3rem;
+  }
+}
+
+/*MOBILE LAYOUT*/
+@media (max-width: 699px) {
+  nav ul {
+    flex-direction: column;
+  }
 }
