@@ -54,3 +54,27 @@ nav a {
   border-radius: 25px;
   transition: all 0.3 ease; /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transition */
 }
+
+nav a:hover {
+  background: white;
+  color: #ff6fcf;
+  box-shadow: 0 0 10px #ff6fcf;
+}
+
+/*MAIN CONTENT OF PAGE*/
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(255, 150, 200, 0.4);
+  padding: 2rem;
+  text-align: center;
+}
+
+
