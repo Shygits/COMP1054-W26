@@ -33,3 +33,24 @@ header h2 {
    opacity: 0.9;
    margin-top: 0.5rem;
 }
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  background: linear-gradient( 90deg,#ffb8e8, #ffd6eb);
+  border-radius: 50px;
+  margin: 1rem auto;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1 rem;
+  font-weight: bold;
+  border-radius: 25px;
+  transition:all 0.3 ease;
+}
