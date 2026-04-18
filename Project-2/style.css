@@ -77,4 +77,16 @@ main {
   text-align: center;
 }
 
+h2, h3, h4 {
+  color: #ff6fcf;
+  text-shadow: 0 0 5px #ffc1ec;
+}
 
+a {
+  color: #ff6fcf
+}
+
+a:hover {
+  color: #ffb8e8;
+  text-decoration: underline;
+}
