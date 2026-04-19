@@ -7,6 +7,9 @@
 
 
 body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
   background:
     repeating-linear-gradient(
       45deg,
@@ -68,8 +71,6 @@ nav a:hover {
 
 /*MAIN CONTENT OF PAGE*/
 main {
-
-main {
   display: grid;
   grid-template-columns: 1fr, 2fr;
   gap: 2rem;
@@ -78,7 +79,6 @@ main {
   width: 100%;
   }
 
-}
 
 .container {
   background: rgba(255, 255, 255, 0.4);
@@ -115,9 +115,15 @@ aside, footer {
 
 #styles {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
   margin-top: 2rem;
+}
+
+#files,
+.profile,
+#styles {
+  flex: 1 1 30%;
 }
 
 footer a {
