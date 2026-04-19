@@ -11,7 +11,9 @@
 body {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 0;
   gap: 2rem;
+  /*padding: 12rem;*/
   background:
     repeating-linear-gradient(
       45deg,
@@ -30,6 +32,7 @@ header {
   box-shadow: 0 4px 10px rgba(255, 150, 200, 0.4);
   padding: 2rem 1rem;
   text-align: center;
+  margin-top: 1rem;
 }
 
 header h1 {
@@ -59,8 +62,7 @@ nav ul {
 
 nav a {
   color: rgb(72, 1, 43);
-  text-decoration: none; /*https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration */
-  padding: 0.5rem 1rem;
+  padding: 1rem 1rem;
   font-weight: bold;
   border-radius: 25px;
 }
@@ -73,10 +75,10 @@ nav a:hover {
 
 /*MAIN CONTENT OF PAGE*/
 main {
+  margin-left: 2rem;
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 2rem;
-  padding: 0;
   justify-items: center;
   width: 100%;
   }
