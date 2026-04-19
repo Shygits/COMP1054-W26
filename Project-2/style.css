@@ -1,3 +1,5 @@
+/*Y2K Bubble Gum Theme*/ 
+
 /*RESET AND BASE STYLES*/
 * {
   box-sizing: border-box;
@@ -58,7 +60,7 @@ nav ul {
 nav a {
   color: rgb(72, 1, 43);
   text-decoration: none; /*https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration */
-  padding: 0.5rem 1 rem;
+  padding: 0.5rem 1rem;
   font-weight: bold;
   border-radius: 25px;
 }
@@ -72,7 +74,7 @@ nav a:hover {
 /*MAIN CONTENT OF PAGE*/
 main {
   display: grid;
-  grid-template-columns: 1fr, 2fr;
+  grid-template-columns: 1fr 2fr;
   gap: 2rem;
   padding: 0;
   justify-items: center;
@@ -86,7 +88,6 @@ main {
   box-shadow: 0 4px 15px rgba(248, 8, 124, 0.8);
   padding: 5rem;
   width: 100%;
-  max-width: none;
 }
 
 h2, h3, h4 {
@@ -134,7 +135,7 @@ footer a {
   DESKTOP VIEW*/
 @media (min-width: 700px) {
   main {
-    grid-template-columns: 2fr, 1fr;
+    grid-template-columns: 2fr 1fr;
   }
 
   nav ul {
