@@ -17,12 +17,6 @@ body {
     );
 }
 
-/*body {
-  font-family: 'Arial', sans-serif;
-  background: linear-gradient(180deg, #ffd6eb 0%, #ffe6f7 100%);
-  line-height: 1.5;
-  color:#333;
-}*/
 /*HEADER AND NAVIGATION*/
 
 header {
@@ -35,7 +29,7 @@ header {
 
 header h1 {
   font-size: 2.5rem;
-  color: rgb(250, 225, 234);
+  color: rgb(249, 244, 246);
   text-shadow: 0 0 10px #ff6fcf;
 }
 
@@ -59,17 +53,16 @@ nav ul {
 }
 
 nav a {
-  color: rgb(244, 101, 185);
+  color: rgb(72, 1, 43);
   text-decoration: none; /*https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration */
   padding: 0.5rem 1 rem;
   font-weight: bold;
   border-radius: 25px;
-  transition: all 0.3 ease; /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transition */
 }
 
 nav a:hover {
   background: white;
-  color: #ff6fcf;
+  color: #d437a0;
   box-shadow: 0 0 10px #ff6fcf;
 }
 
@@ -78,7 +71,7 @@ main {
 
 main {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr, 2fr;
   gap: 2rem;
   padding: 0;
   justify-items: center;
@@ -89,20 +82,20 @@ main {
 
 .container {
   background: rgba(255, 255, 255, 0.4);
-  border-radius: 20px;
-  box-shadow: 0 4px 15px rgba(255, 150, 200, 0.9);
-  padding: 2rem;
+  border-radius: 30px;
+  box-shadow: 0 4px 15px rgba(248, 8, 124, 0.8);
+  padding: 5rem;
   width: 100%;
   max-width: none;
 }
 
 h2, h3, h4 {
-  color: #ff6fcf;
-  text-shadow: 0 0 5px #ffc1ec;
+  color: #13010a;
+  text-shadow: 0 0 8px #ef04a9;
 }
 
 a {
-  color: #ff6fcf
+  color: #711753
 }
 
 a:hover {
@@ -113,11 +106,18 @@ a:hover {
 
 /*ASIDE & FOOTER*/
 aside, footer {
-    background: linear-gradient(145deg, #ffc1ec, #ff9ad9);
-    color: rgb(167, 65, 114);
+    background: linear-gradient(145deg, #f8bae5, #ff9ad9);
+    color: rgb(249, 2, 121);
     border-radius: 20px;
-    box-shadow: 0 4px 15px rgba(255, 150, 200, 0.6);
+    box-shadow: 0 4px 15px rgba(255, 177, 215, 0.7);
     padding: 1rem;
+}
+
+#styles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 2rem;
 }
 
 footer a {
@@ -129,7 +129,7 @@ footer a {
   DESKTOP VIEW*/
 @media (min-width: 700px) {
   main {
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2fr, 1fr;
   }
 
   nav ul {
@@ -149,10 +149,6 @@ footer a {
 
   header h1 {
     font-size: 2rem;
-  }
-
-  .container {
-    padding: 1rem;
   }
 }
 
